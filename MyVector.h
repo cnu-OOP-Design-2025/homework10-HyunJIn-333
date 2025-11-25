@@ -42,7 +42,7 @@ public:
     bool operator>=(const MyVector& other) const;
 
 
-    // Vector에 대한 반복자
+    // Vector에 대한 반복자.
     class Iterator {
         T* ptr;         // 항목에 대한 포인터
     public:
